@@ -20,11 +20,11 @@ const Home = () => {
       </div>
     </div>
     <div className="socials">
-      <a href="https://www.github.com/t-hoffman" target="_blank" className="github"><i className="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/tyler-hoffman" target="_blank" className="linked"><i className="fa-brands fa-linkedin"></i></a>
-      <a href="https://www.facebook.com/teehoff/" target="_blank" className="fb"><i className="fa-brands fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/teehoff/" target="_blank" className="ig"><i className="fa-brands fa-instagram"></i></a>
-      <a href="https://twitter.com/_tylerhoffman" target="_blank" className="twitter"><i className="fa-brands fa-twitter"></i></a>
+      <a href="https://www.github.com/t-hoffman" target="_blank" rel="noreferrer" className="github"><i className="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/tyler-hoffman" target="_blank" rel="noreferrer" className="linked"><i className="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/teehoff/" target="_blank" rel="noreferrer" className="fb"><i className="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/teehoff/" target="_blank" rel="noreferrer" className="ig"><i className="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/_tylerhoffman" target="_blank" rel="noreferrer" className="twitter"><i className="fa-brands fa-twitter"></i></a>
     </div>
     <div className="email-link">
       <a href="mailto:teehoff@icloud.com">teehoff@icloud.com</a>
