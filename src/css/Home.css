@@ -6,9 +6,10 @@
 
 .main-left {
   width: 50%;
-  background-image: url('../assets/beachcolor.png');
+  background-image: url('../assets/beachbw.png');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 95%;
 }
 
@@ -67,10 +68,17 @@
   margin-top: 50px;
   background-color: #fff;
   width: fit-content;
-  padding: 15px;
-  border-radius: 50px;
-  border: 1px solid #efefef;
+  padding: 10px;
+  border-radius: 15px;
   text-transform: uppercase;
-  opacity: 60%;
+  opacity: 50%;
   letter-spacing: 0.2em;
+  box-shadow: 0 0 15px rgb(217, 217, 217, .75);
+  font-family: 'Montserrat';
 }
+
+.email-link {
+  text-align: center;
+  margin-top: 25px;
+}
+.email-link a { color: tomato }
