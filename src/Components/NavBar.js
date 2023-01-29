@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <div className="nav-bar">
-      <h1>TYLER</h1>
+      <h1>TYLER&nbsp;</h1>
       <div className="nav-link" style={{marginTop:'50px'}}>
         <NavLink to="/" className={classNameFunc}>Home</NavLink></div>
       <div className="nav-link">

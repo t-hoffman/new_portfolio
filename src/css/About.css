@@ -1,0 +1,19 @@
+.about-photo {
+  width: 40%;
+  height: 30vh;
+  margin-left: 15px;
+  margin-right: auto;
+  background-image: url('../assets/bostonbw.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.about-content {
+  width: 100%;
+  line-height: 2em;
+}
+
+.about-content p {
+  text-indent: 30px;
+}

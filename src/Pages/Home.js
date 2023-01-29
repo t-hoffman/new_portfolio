@@ -19,6 +19,9 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <div className="links-header">
+      <h3>LINKS:</h3>
+    </div>
     <div className="socials">
       <a href="https://www.github.com/t-hoffman" target="_blank" rel="noreferrer" className="github"><i className="fa-brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/tyler-hoffman" target="_blank" rel="noreferrer" className="linked"><i className="fa-brands fa-linkedin"></i></a>
@@ -28,11 +31,6 @@ const Home = () => {
     </div>
     <div className="email-link">
       <a href="mailto:teehoff@icloud.com">teehoff@icloud.com</a>
-    </div>
-    <div className="construction">
-      <div className="construction-box">
-        {/* <span style={{fontSize:'16pt'}}>🚧</span>  */}Website under construction
-      </div>
     </div>
     </>
   )

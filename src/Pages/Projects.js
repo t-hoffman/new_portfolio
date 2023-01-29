@@ -15,41 +15,47 @@ const Projects = () => {
   }, []);
 
   const loaded = () => {
-    return projects.map((project, pidx) => (
-      <div key={pidx}>
-        <div><h2 className="smaller-h2">{project.name}</h2></div>
-        <div className="projects">
-          <div className="left">
-            <div className="images">
-            {
-              project.image.map((img, idx) => {
-                  return <div key={idx}><img src={img} height="450px" alt={project.name} /></div>
-              })
-            }
-            </div>
-          </div>
-          <div className="right">
-            <div className="buttons">
-            <a href={project.git}>
-            <button>GitHub</button>
-            </a>
-            {
-              project.live.map((live, idx) => {
-                return (
-                  <a href={live} key={idx}>
-                  <button>Live Site</button>
-                  </a>
-                )
-              })
-            }
-            </div>
-          </div>
-        </div>
-      </div>
-    ));
+    let projectList = [];
+    for (let i = projects.length -1; i >= 0; i--) {
+      projectList.push(<Project project={projects[i]} pidx={i} key={i} />)
+    }
+
+    return projectList;
   };    
 
   return projects ? loaded() : <h2>Loading ...</h2>
+}
+
+const Project = ({ project, pidx }) => {
+  return (
+    <div key={pidx}>
+      <div><h2 className="smaller-h2">{project.name}</h2></div>
+      <div className="projects">
+        <div className="images">
+        {
+          project.image.map((img, idx) => {
+            let oneImage = project.image.length === 1 ? {width: '100%'} : {};
+            return <div key={idx} className="image" style={oneImage}><img src={img} height="450px" alt={project.name} /></div>
+          })
+        }
+        </div>
+      </div>
+      <div className="buttons">
+        <a href={project.git} target="_blank" rel="noreferrer">
+        <button>GitHub</button>
+        </a>
+        {
+          project.live.map((live, idx) => {
+            return (
+              <a href={live} key={idx} target="_blank" rel="noreferrer">
+              <button target="_blank">Live Site</button>
+              </a>
+            )
+          })
+        }
+      </div>
+    </div>
+  )
 }
 
 export default Projects
