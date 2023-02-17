@@ -10,7 +10,7 @@ const Home = () => {
         <h2>TYLER HOFFMAN</h2>
         <h3>SOFTWARE ENGINEER</h3>
         <div className="main-text">
-          Creative software engineer based in <b>West Hollywood</b> <span style={{fontSize:'16pt'}}>☀️</span> who discovered my passion for development at the young age of 12.<br /><br />
+          Creative software engineer based in <b>West Hollywood</b> <span style={{fontSize:'16pt'}}>☀️</span> who discovered his true passion for development at the young age of 12.<br /><br />
           My success as a freelancer in my early teens solidified my love for problem-solving and self-motivated learning.<br /><br />
           I am now seeking to <span style={{fontSize:'16pt'}}>🚀</span> launch my career as a software developer and take it to new heights.
           {/* Creative software engineer based in <b>West Hollywood</b> <span style={{fontSize:'16pt'}}>☀️</span> that found my passion for development when I was just 12 years old.<br /><br />
