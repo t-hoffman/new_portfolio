@@ -5,7 +5,9 @@
           "https://thoffman.me/project_0/tictactoe.html",
           "https://thoffman.me/project_0/"
       ],
-      "git": "https://github.com/t-hoffman/project_0",
+      "git": [
+        "https://github.com/t-hoffman/project_0"
+      ],
       "image": [
           "https://user-images.githubusercontent.com/116391297/207213284-a49b87a6-6699-4049-b7d1-1f44c6276b7e.png"
       ]
@@ -15,7 +17,9 @@
       "live": [
           "https://thoffman.me/Project_1_Checkers/"
       ],
-      "git": "https://github.com/t-hoffman/Project_1_Checkers",
+      "git": [
+        "https://github.com/t-hoffman/Project_1_Checkers"
+      ],
       "image": [
           "https://user-images.githubusercontent.com/116391297/202834078-23c7a943-740f-40d1-aba9-6425bcc67d85.png"
       ]
@@ -25,7 +29,9 @@
       "live": [
           "https://foodie.thoffman.me"
       ],
-      "git": "https://github.com/t-hoffman/Project-2-Foodie-API",
+      "git": [
+        "https://github.com/t-hoffman/Project-2-Foodie-API"
+      ],
       "image": [
           "https://user-images.githubusercontent.com/116391297/207214443-14990618-c0e5-43df-9097-d524d02c7c9e.png",
           "https://user-images.githubusercontent.com/116391297/207214450-5b5af769-8b42-4c09-b2d9-b6305f1d2b79.jpg"
@@ -36,11 +42,29 @@
       "live": [
           "https://abnb.thoffman.me"
       ],
-      "git": "https://github.com/t-hoffman/airbnb-clone",
+      "git": [
+        "https://github.com/t-hoffman/airbnb-clone"
+      ],
       "image": [
           "https://user-images.githubusercontent.com/116391297/215308070-f96c5baf-2f78-4f93-b1c3-9621d25bd8c7.png",
           "https://user-images.githubusercontent.com/116391297/215308129-0cc3f51f-4518-4dc9-b8bc-237de242006d.png",
           "https://user-images.githubusercontent.com/116391297/215308152-4d5ecc7c-bce1-4927-8292-5b17077bc1e4.png"
       ]
+  },
+  {
+    "name": "Tweeter - Reverse Engineer",
+    "live": [
+        "https://tweeter.thoffman.me"
+    ],
+    "git": [
+        "https://github.com/t-hoffman/Capstone-Project-Frontend",
+        "https://github.com/t-hoffman/Capstone-Project-Backend"
+    ],
+    "image": [
+        "https://user-images.githubusercontent.com/116391297/216911709-43c35b57-ba55-4c63-89dc-7a4c3e2b71e4.png",
+        "https://user-images.githubusercontent.com/116391297/216911724-46ecbec7-9ecc-402f-ab46-4b515e61c9f7.png",
+        "https://user-images.githubusercontent.com/116391297/216911757-52e84b0c-1d12-4dc4-aa4e-2083cf04abca.png",
+        "https://user-images.githubusercontent.com/116391297/216912228-c3a367f3-a429-49ef-b92c-d5299f28136e.png"
+    ]
   }
 ]

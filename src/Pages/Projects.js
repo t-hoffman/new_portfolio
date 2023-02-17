@@ -41,17 +41,19 @@ const Project = ({ project, pidx }) => {
         </div>
       </div>
       <div className="buttons">
-        <a href={project.git} target="_blank" rel="noreferrer">
-        <button>GitHub</button>
-        </a>
         {
-          project.live.map((live, idx) => {
-            return (
-              <a href={live} key={idx} target="_blank" rel="noreferrer">
+          project.git.map((git, idx) => (
+            <a href={git} target="_blank" rel="noreferrer">
+              <button>GitHub</button>
+            </a>
+          ))
+        }
+        {
+          project.live.map((live, idx) => (
+            <a href={live} key={idx} target="_blank" rel="noreferrer">
               <button target="_blank">Live Site</button>
-              </a>
-            )
-          })
+            </a>
+          ))
         }
       </div>
     </div>
