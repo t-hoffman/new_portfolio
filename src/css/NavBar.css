@@ -6,19 +6,19 @@
   flex-direction: column;
   align-items: flex-end;
   background-color: #fff;
-  box-shadow: 0 2px 8px 0 rgb(200,200,200, .3);
+  box-shadow: 0 2px 8px 0 rgb(200, 200, 200, 0.3);
   padding-right: 5%;
   padding-top: 30vh;
 }
 
 .nav-link {
   margin-top: 35px;
-  font-family: 'Visby', sans-serif;
+  font-family: "Visby", sans-serif;
   font-size: 14pt;
 }
 
 .nav-link-active {
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   letter-spacing: -2px;
   color: #53f3e3;
   font-size: 18pt;
