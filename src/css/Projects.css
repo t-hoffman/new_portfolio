@@ -1,5 +1,5 @@
 .smaller-h2 {
-  font-family: 'Goldplay';
+  font-family: "Goldplay";
   text-transform: uppercase;
   font-size: 22pt;
   letter-spacing: 0;
@@ -38,15 +38,27 @@
 }
 
 button {
-  padding: 20px;
+  padding: 15px 10px;
   cursor: pointer;
   border: 0px;
   margin: 15px;
-  border-radius: 25px;
-  width: 150px;
-  background-color: #151B22;
+  border-radius: 15px;
+  /* width: 150px; */
+  background-color: #161b22;
   color: white;
   font-weight: bold;
   font-size: 12pt;
-  font-family: 'Playfair Display', sans-serif;
+  /* font-family: "Playfair Display", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14pt;
+  text-transform: uppercase;
+  box-shadow: 2px 1px 0px #53f3e3, -2px -1px 0px tomato;
+}
+
+button:hover {
+  box-shadow: 2px 1px 0px tomato, -2px -1px 0px #53f3e3;
+}
+
+button:active {
+  box-shadow: 2px 1px 0px chartreuse, -2px -1px 0px chartreuse;
 }

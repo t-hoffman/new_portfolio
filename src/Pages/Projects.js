@@ -14,14 +14,10 @@ const Projects = () => {
       getProjectData()
   }, []);
 
-  const loaded = () => {
-    let projectList = [];
-    for (let i = projects.length -1; i >= 0; i--) {
-      projectList.push(<Project project={projects[i]} pidx={i} key={i} />)
-    }
-
-    return projectList;
-  };    
+  const loaded = () => (
+    projects.reverse()
+      .map((p, idx) => <Project project={p} pidx={idx} key={idx} />)
+  );    
 
   return projects ? loaded() : <h2>Loading ...</h2>
 }
@@ -43,7 +39,7 @@ const Project = ({ project, pidx }) => {
       <div className="buttons">
         {
           project.git.map((git, idx) => (
-            <a href={git} target="_blank" rel="noreferrer">
+            <a href={git} key={idx} target="_blank" rel="noreferrer">
               <button>GitHub</button>
             </a>
           ))
@@ -51,7 +47,7 @@ const Project = ({ project, pidx }) => {
         {
           project.live.map((live, idx) => (
             <a href={live} key={idx} target="_blank" rel="noreferrer">
-              <button target="_blank">Live Site</button>
+              <button target="_blank">Demo</button>
             </a>
           ))
         }
