@@ -8,6 +8,10 @@ import Contact from 'Pages/Contact'
 import './css/index.css'
 
 export default function App() {
+  const needsRedirect = window.location.hostname === 't-hoffman.com'
+
+  if (needsRedirect) window.location.href = 'https://thoffman.me'
+
   return (
    <Layout>
     <Routes>
