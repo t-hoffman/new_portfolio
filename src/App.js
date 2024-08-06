@@ -8,8 +8,8 @@ import Contact from 'Pages/Contact'
 import './css/index.css'
 
 export default function App() {
-  const location = window.location
-  const needsRedirect = location.hostname !== 'thoffman.me' && location.hostname !== 'localhost'
+  const location = window.location, locations = ['localhost', 'www.localhost', 'thoffman.me', 'www.thoffman.me']
+  const needsRedirect = !locations.includes(location.hostname)
 
   if (needsRedirect) location.href = 'https://thoffman.me'
 
