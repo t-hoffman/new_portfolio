@@ -13,8 +13,6 @@ export default function App() {
 
   if (needsRedirect) location.href = 'https://thoffman.me'
 
-  // <Route path="*" element={<Navigate to="/" />} />
-
   return (
    <Layout>
     <Routes>
@@ -23,6 +21,7 @@ export default function App() {
       <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/contactme" element={<Contact />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
    </Layout> 
   )
