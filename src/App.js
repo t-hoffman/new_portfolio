@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Layout from 'Layout/Layout'
 import Home from 'Pages/Home'
 import Projects from 'Pages/Projects'
@@ -21,6 +21,7 @@ export default function App() {
       <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/contactme" element={<Contact />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
    </Layout> 
   )
