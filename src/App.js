@@ -21,7 +21,6 @@ export default function App() {
       <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/contactme" element={<Contact />} />
-      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
    </Layout> 
   )
